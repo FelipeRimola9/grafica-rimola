@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!-- Comienzo del head -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfica Rímola</title>
+    <!-- link estilos css -->
+    <link rel="stylesheet" href="../Style/estilos.css">
+    <!-- link favicon -->
+   <link rel="icon" type="imagenes/.png" href="../Imagenes/favicon.png">
+   <!-- link google fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<!-- Finaliza el head -->
+
+<!-- Comienzo del body -->
+<body>
+    <header>
+        <h2 class="logo"><img src="../Imagenes/GRAFICA-RIMOLA.png" alt="Gráfica Rímola" width="170" height="67"></h2>
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+            &#8801
+        </label>
+    <nav class="menu">
+    <a href="/index.html">Inicio</a>
+    <a href="ploteos.html">Ploteos</a>
+    <a href="carteleria.html">Cartelería</a>
+    <a href="imprenta.html">Imprenta</a>
+    <a href="nosotros.html">Nosotros</a>
+    <label for="check" class="esconder-menu">
+        &#215
+    </label>
+    </nav>
+</header>
+<!-- botón de whatsapp -->
+<div class="container-boton">
+    <a href="https://wa.me/542346520543?text=Bienvenidos%20a%20Gráfica%20Rímola!" target="_blank">
+        <img class="boton" src="../Imagenes/icono.png" alt="Whats app">
+    </a>
+</div>
+
+<!-- comienzo main -->
+<main>
+     <div class="logo">
+
+    <h3>Algunos de nuestros trabajos:</h3>
+    <br>
+    <div class="padre-flex">
+    <img src="../imagenes/Siglo-xxi.jpg" alt="Cartel siglo XXI">
+    <img src="../Imagenes/quijote.jpg" alt="Cartel Quijote muebles">
+    <img src="../Imagenes/open.jpg" alt="Cartel Open Sports">
+</div>
+<section id="contacto">
+    <h4>Contacta con nosotros</h4>
+    <form  action="https://formsubmit.co/feliperimola9@gmail.com" method="POST">
+        <div class="datos-form">
+            <div class="nombre">
+                <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre"
+            placeholder="nombre">
+            </div>
+            <br>
+            <div class="email">
+                <label for="email">Email</label>
+            <input type="email" name="email" id="email"
+            placeholder="email">
+            </div>
+        </div>
+        <div class="mensaje">
+            <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" id="mensaje" cols="30"
+        rows="10" placeholder="mensaje"></textarea>
+        </div>
+        <div class="boton-formulario">
+            <a href="#" class="boton-saber-mas">Enviar mensaje</a>
+        </div>
+    </form>
+    </section>
+    <footer>
+<p>&copy;2022 Gráfica Rímola</p>
+    </footer>
+</body>
+<!-- Finaliza el body -->
+</html>
